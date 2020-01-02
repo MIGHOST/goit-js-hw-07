@@ -1,0 +1,32 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    max-width: 960px;
+}
+
+#categories {
+    margin-bottom: 100px;
+}
+#ingredients{
+ 
+    margin-bottom: 100px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+}
