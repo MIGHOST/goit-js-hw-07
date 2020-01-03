@@ -28,5 +28,10 @@ img {
 
 .gallery {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between;  
+}
+
+.gallery__item{
+list-style: none;
+padding: 15px;
 }

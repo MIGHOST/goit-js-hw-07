@@ -1,6 +1,6 @@
 "use strict";
 
-const categories = document.querySelector("ul#categories");
+const categories = document.querySelector("#categories");
 const elements = document.querySelectorAll("li.item")
 const checkCategories = value => console.log (`The list have ${Object.keys(value).length} categories`)
 const findElementsInCategory = element => { elements.forEach(
