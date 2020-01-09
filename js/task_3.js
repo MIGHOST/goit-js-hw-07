@@ -30,7 +30,6 @@ const makeList = ({ url, alt }) => {
 const makeImageList = items => items.reduce((list, item) => (list += makeList(item)), "");
 
 const imageList = makeImageList(images);
-console.log(imageList)
 
 galleryList.innerHTML = imageList;
 
