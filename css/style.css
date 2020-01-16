@@ -21,34 +21,35 @@ img {
 #categories {
     margin-bottom: 100px;
 }
-#ingredients{
- 
+
+#ingredients {
+
     margin-bottom: 100px;
 }
 
-.gallery {
-    display: flex;
-    justify-content: space-between;  
+
+.gallery__item {
+    display: inline-flex;
+    list-style: none;
+    padding: 5px;
+    width: 300px;
+    height: 200px;
+
 }
 
-.gallery__item{
-list-style: none;
-padding: 15px;
-}
-
-.task_5{ 
+.task_5 {
     padding: 25px;
 }
 
 
 #validation-input {
     border: 3px solid #bdbdbd;
-  }
-  
-  #validation-input.valid {
+}
+
+#validation-input.valid {
     border-color: #4caf50;
-  }
-  
-  #validation-input.invalid {
+}
+
+#validation-input.invalid {
     border-color: #f44336;
-  }
+}
