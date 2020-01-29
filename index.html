@@ -72,12 +72,19 @@
 />
 </div>
 
-<div class="task_7">
+<div class="task_7 retro">
   <input id="font-size-control" type="range" />
 <br />
 <span id="text">Абракадабра!</span>
 </div>
 
+<div id="controls">
+  <input type="number" min="0" max="100" step="1" class="page_input" />
+  <button type="button" data-action="render">Создать</button>
+  <button type="button" data-action="destroy">Очистить</button>
+</div>
+
+<div id="boxes"></div>
 
 </main>
 
@@ -90,6 +97,7 @@
     <script type="module" src="js/task_5.js"></script>
     <script type="module" src="js/task_6.js"></script>
     <script type="module" src="js/task_7.js"></script>
+    <script type="module" src="js/task_8.js"></script>
  
   
 </body>
